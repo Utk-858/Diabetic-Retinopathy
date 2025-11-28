@@ -11,7 +11,7 @@ import numpy as np
 app = FastAPI(title="Binary DR Detection API")
 
 # Binary class mapping
-idx_to_class = {0: "DR", 1: "NO_DR"}
+idx_to_class = {0: "No_DR", 1: "DR"}
 
 # Model Architecture (Binary)
 class DRModel(nn.Module):
